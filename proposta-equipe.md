@@ -46,11 +46,33 @@ Registro de transferências entre filiais com controle de origem, destino e resp
 
 ## 5. Tratamento de Clientes
 
-### Vendas CPF (Pessoa Física)
-Cadastro simplificado (nome, CPF, contato). Venda no balcão ou autoatendimento. Emissão de cupom fiscal.
+O Atacadão atende dois grandes perfis de clientes no modelo de atacarejo (cash & carry):
 
-### Vendas CNPJ (Pessoa Jurídica)
-Cadastro completo com dados fiscais. Tabela de preço diferenciada. Emissão de NF-e. Pedido mínimo e condições de pagamento especiais.
+### Cliente CPF (Pessoa Física)
+Consumidor final que compra para uso próprio ou familiar. Foco nas classes C e D, buscando preços competitivos e variedade.
+- Cadastro simplificado (nome, CPF, contato)
+- Venda no balcão ou autoatendimento
+- Emissão de cupom fiscal
+- Compra avulsa sem pedido mínimo
+
+### Cliente CNPJ (Pessoa Jurídica)
+Empresas que compram para revenda ou consumo institucional. Dividem-se em três subperfis:
+
+#### Pequenos e Médios Comerciantes
+Mercados, mercearias, padarias e restaurantes que compram para revenda direta.
+- Cadastro completo com dados fiscais
+- Tabela de preço diferenciada (desconto por volume)
+- Emissão de NF-e
+- Pedido mínimo e condições de pagamento especiais
+
+#### Transformadores
+Empresas que utilizam os produtos como insumo (ex.: confeitarias, lanchonetes, indústrias alimentícias).
+- Compram em maior volume
+- Necessitam de regularidade no abastecimento
+- Preço diferenciado por categoria
+
+#### Grandes Lojistas e Empresas
+Atendidos pelo formato de **atacado de entrega** (central de distribuição), com entregas programadas e condições comerciais negociadas.
 
 ## 6. Geração de Indicadores
 
