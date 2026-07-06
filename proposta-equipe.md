@@ -15,11 +15,22 @@
 - [x] Vendas para clientes CNPJ
 - [x] Geração de indicadores
 
-## 2. Visão Geral da Solução
+## 2. Modelo de Negócio do Atacadão
+
+O Atacadão opera no modelo **atacarejo (cash & carry)**, que combina atacado e varejo em um único canal de vendas. Sua estratégia se baseia em:
+
+- **Formato misto:** autosserviço (lojas físicas com prateleiras abertas ao público) e atacado de entrega (centros de distribuição para grandes volumes)
+- **Público-alvo:** classes C e D, oferecendo preços competitivos com margens reduzidas e alto giro de produtos
+- **Mix de produtos:** foco em itens essenciais de alta rotatividade (alimentos, bebidas, limpeza, higiene)
+- **Fontes de receita:** venda direta ao consumidor (B2C) e venda para comerciantes e empresas (B2B)
+- **Serviços complementares:** postos de gasolina, drogarias, e-commerce próprio e parceiros (Rappi, iFood)
+- **Operação enxuta:** lojas com estrutura simples, exposição de produtos em paletes e autoatendimento, reduzindo custos operacionais
+
+## 3. Visão Geral da Solução
 
 Sistema integrado de gestão de estoque com módulo de vendas, que unifica o planejamento de compras com base no histórico de vendas (CPF e CNPJ), controla o saldo em tempo real e gera indicadores gerenciais.
 
-## 3. Fluxo do Processo
+## 4. Fluxo do Processo
 
 ```
 Venda CPF/CNPJ → Baixa no estoque → Atualiza saldo →
@@ -27,7 +38,7 @@ Venda CPF/CNPJ → Baixa no estoque → Atualiza saldo →
     → Aprovado? → Pedido ao fornecedor → Entrada no estoque
 ```
 
-## 4. Solução para Cada Problema
+## 5. Solução para Cada Problema
 
 ### Planejamento de compras
 Com base no histórico de vendas e estoque mínimo, o sistema sugere automaticamente quais produtos comprar e em qual quantidade.
@@ -44,7 +55,7 @@ Módulo de contagem cíclica com coletor ou app mobile. Conferência por código
 ### Movimentação entre depósitos
 Registro de transferências entre filiais com controle de origem, destino e responsável. Rastreamento em tempo real da mercadoria em trânsito.
 
-## 5. Tratamento de Clientes
+## 6. Tratamento de Clientes
 
 O Atacadão atende dois grandes perfis de clientes no modelo de atacarejo (cash & carry):
 
@@ -74,7 +85,7 @@ Empresas que utilizam os produtos como insumo (ex.: confeitarias, lanchonetes, i
 #### Grandes Lojistas e Empresas
 Atendidos pelo formato de **atacado de entrega** (central de distribuição), com entregas programadas e condições comerciais negociadas.
 
-## 6. Geração de Indicadores
+## 7. Geração de Indicadores
 
 - Giro de estoque
 - Produtos mais vendidos (por cliente CPF e CNPJ)
@@ -82,7 +93,7 @@ Atendidos pelo formato de **atacado de entrega** (central de distribuição), co
 - Ticket médio por tipo de cliente
 - Valor total em estoque
 
-## 7. Tecnologias Sugeridas
+## 8. Tecnologias Sugeridas
 
 | Camada | Tecnologia |
 |--------|-----------|
@@ -91,6 +102,6 @@ Atendidos pelo formato de **atacado de entrega** (central de distribuição), co
 | Banco de Dados | PostgreSQL |
 | Mobile | React Native (para inventário) |
 
-## 8. Observações
+## 9. Observações
 
 ...
