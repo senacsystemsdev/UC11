@@ -2,6 +2,10 @@
 
 ## [1.1.1] — 2026-07-07
 
+### Adicionado
+
+- 1ª microentrega (`microentrega-1.md`) com visão do cliente, problema, usuários e organização da equipe
+
 ### Alterado
 
 - Especificação da regularidade no abastecimento para clientes transformadores na proposta
