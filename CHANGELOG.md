@@ -9,6 +9,7 @@
 - Sprint de visão do usuário (`sprint-visao-usuario.md`)
 - Personas de todos os perfis do sistema (`personas.md`)
 - Mapa de Empatia do Gerente de Loja (`mapa-empatia.md`)
+- Jornada do Usuário para todos os perfis (`jornada-usuario.md`)
 
 ### Alterado
 
