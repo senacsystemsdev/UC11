@@ -1,11 +1,9 @@
 # Changelog
 
-## [1.1.1] — 2026-07-08
+## [1.1.2] — 2026-07-08
 
 ### Adicionado
 
-- 1ª microentrega (`microentrega-1.md`) com visão do cliente, problema, usuários e organização da equipe
-- Reflexão sobre desenvolvimento sem contato com o cliente (`reflexao-1.md`)
 - Sprint de visão do usuário (`sprint-visao-usuario.md`)
 - Personas de todos os perfis do sistema (`personas.md`)
 - Mapa de Empatia do Gerente de Loja (`mapa-empatia.md`)
@@ -14,9 +12,20 @@
 
 ### Alterado
 
-- Especificação da regularidade no abastecimento para clientes transformadores na proposta
+- Data do changelog corrigida
 - Reflexão revisada com nova perspectiva acadêmica (`reflexao-1.md`)
 - Microentrega 1 atualizada com divisão de papéis da equipe
+
+## [1.1.1] — 2026-07-07
+
+### Adicionado
+
+- 1ª microentrega (`microentrega-1.md`) com visão do cliente, problema, usuários e organização da equipe
+- Reflexão sobre desenvolvimento sem contato com o cliente (`reflexao-1.md`)
+
+### Alterado
+
+- Especificação da regularidade no abastecimento para clientes transformadores na proposta
 
 ## [1.1.0] — 2026-07-06
 
