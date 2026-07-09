@@ -1,6 +1,17 @@
 # Changelog
 
-## [1.1.2] — 2026-07-09
+## [1.1.3] — 2026-07-09
+
+### Adicionado
+
+- Pastas individuais william/, alaide/, ed/ com personas, mapas de empatia e requisitos individuais
+
+### Alterado
+
+- Ajuste para 1 persona por integrante
+- Data do changelog corrigida
+
+## [1.1.2] — 2026-07-08
 
 ### Adicionado
 
@@ -11,12 +22,9 @@
 - Entrega final da sprint de visão do usuário (`entrega-final-sprint.md`)
 - Descrição da Sprint 3 (`sprint3-visao-usuario.md`)
 - Product Book da Sprint 3 (`product-book-sprint3.md`)
-- Pastas individuais william/, alaide/, ed/ com personas, mapas de empatia e requisitos individuais
-- Ajuste para 1 persona por integrante
 
 ### Alterado
 
-- Data do changelog corrigida
 - Reflexão revisada com nova perspectiva acadêmica (`reflexao-1.md`)
 - Microentrega 1 atualizada com divisão de papéis da equipe
 
