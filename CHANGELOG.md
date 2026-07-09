@@ -5,6 +5,7 @@
 ### Adicionado
 
 - Descrição da Sprint 3 (`sprint3-visao-usuario.md`)
+- Product Book da Sprint 3 (`product-book-sprint3.md`)
 - Pastas individuais william/, alaide/, ed/ com personas, mapas de empatia e requisitos individuais
 
 ### Alterado
@@ -22,8 +23,6 @@
 - Mapa de Empatia do Gerente de Loja (`mapa-empatia.md`)
 - Jornada do Usuário para todos os perfis (`jornada-usuario.md`)
 - Entrega final da sprint de visão do usuário (`entrega-final-sprint.md`)
-- Product Book da Sprint 3 (`product-book-sprint3.md`)
-
 ### Alterado
 
 - Reflexão revisada com nova perspectiva acadêmica (`reflexao-1.md`)
