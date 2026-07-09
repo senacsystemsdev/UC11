@@ -42,7 +42,7 @@ Sprint focada em desenvolver uma visão centrada no usuário, identificando perf
 
 - Dashboard em tempo real para gerentes e diretoria
 - Sugestão automática de compras baseada em histórico
-- PDV rápido com leitor de código de barras e emissão fiscal automática
+- PDV (Ponto de Venda) rápido com leitor de código de barras e emissão fiscal automática
 - Aplicativo mobile para inventário com código de barras
 - Rastreamento de mercadorias em trânsito
 - Indicadores consolidados de giro, ruptura e ticket médio
@@ -51,7 +51,7 @@ Sprint focada em desenvolver uma visão centrada no usuário, identificando perf
 
 ## Requisitos Funcionais (Resumo)
 
-- **Módulo PDV:** RF001-RF007 (vendas CPF/CNPJ, emissão fiscal, baixa no estoque)
+- **Módulo PDV (Ponto de Venda):** RF001-RF007 (vendas CPF/CNPJ, emissão fiscal, baixa no estoque)
 - **Módulo Estoque:** RF008-RF012 (saldo em tempo real, alertas, consulta)
 - **Módulo Compras:** RF013-RF016 (sugestão automática, aprovação, pedido)
 - **Módulo Perdas:** RF017-RF020 (registro, notificação, relatório)
