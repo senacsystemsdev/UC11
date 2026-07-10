@@ -1,49 +1,34 @@
-# Matriz CSD — Alaide (Documentação) | Aplicativo Atual do Atacadão
+# Matriz CSD — Alaide (Documentação) | Marcos Oliveira (Estoquista)
 
 ## Certezas
 
-**O app Meu Atacadão é focado no cliente final (B2C)**
-> O app disponível na Play Store e App Store oferece ofertas exclusivas, folhetos promocionais e compras online — não tem funcionalidades de gestão de estoque interno.
+1. **O inventário é feito manualmente com papel e caneta**
+   > O estoquista precisa anotar cada item à mão e depois digitar no sistema — processo lento e propenso a erros.
 
-**O app tem scanner de preços por código de barras**
-> O usuário pode escanear o código de barras de qualquer produto para ver o preço atualizado em tempo real.
+2. **O saldo do sistema frequentemente diverge do físico**
+   > A diferença entre o que está registrado e o que realmente tem no estoque é recorrente, gerando retrabalho.
 
-**O sistema atual não oferece visibilidade de estoque em tempo real para gerentes**
-> Os documentos do projeto indicam que gerentes não têm dashboard com saldo atualizado, indicadores ou alertas.
-
-**O Atacadão possui ERP próprio que controla estoque, vendas e logística**
-> Conforme noticiado, o Carrefour está migrando suas lojas para o ERP do Atacadão, que serve como "cérebro comercial" da operação.
-
-**As transferências entre lojas não possuem rastreamento digital integrado**
-> O processo de movimentação entre depósitos é lento e sem rastreabilidade segundo o levantamento de requisitos.
-
-**Perdas são difíceis de justificar por falta de dados**
-> Produtos vencem, estragam ou somem sem registro de quando, onde ou por quê, conforme documento de requisitos.
+3. **Não há leitor de código de barras no processo de inventário**
+   > O app Meu Atacadão já tem scanner de preços para o cliente, mas os estoquistas não usam essa tecnologia internamente.
 
 ## Suposições
 
-**Um novo módulo de inventário mobile com leitor de código de barras agilizaria a contagem**
-> O scanner de preços do app atual prova que a tecnologia de leitura de código de barras já existe — falta aplicá-la ao inventário interno.
+1. **Um app interno com leitor de código de barras reduziria o tempo de inventário**
+   > O scanner que já existe no app do cliente poderia ser adaptado para acelerar a conferência de estoque.
 
-**Um dashboard gerencial integrado ao ERP existente agilizaria decisões**
-> Se o ERP já controla estoque e vendas, um painel com indicadores em tempo real aproveitaria dados já existentes.
+2. **Um ajuste automático de saldo após a contagem eliminaria divergências**
+   > O sistema poderia corrigir o saldo em tempo real conforme o estoquista confere os itens.
 
-**Alertas automáticos de estoque baixo evitariam rupturas**
-> Notificações no sistema quando um produto atingir o mínimo evitariam gôndolas vazias e perda de vendas.
-
-**Registro digital de perdas com causa facilitaria a justificativa**
-> Um campo obrigatório no sistema para registrar motivo, data e responsável pela perda geraria dados para análise.
+3. **O registro digital de perdas com causa obrigatória geraria dados confiáveis**
+   > Se o sistema exigir motivo, data e responsável, a diretoria teria insumos para reduzir desperdícios.
 
 ## Dúvidas
 
-**O ERP do Atacadão possui API aberta para integração com novos módulos?**
-> Sem API, qualquer novo sistema precisaria acessar o banco de dados diretamente ou via arquivos, o que é mais arriscado.
+1. **Os celulares dos estoquistas têm câmera e desempenho para rodar o app?**
+   > O scanner de código de barras exige câmera funcional e processamento mínimo — é preciso verificar o hardware disponível.
 
-**O app Meu Atacadão compartilha banco de dados com o ERP interno?**
-> Se o app B2C e o ERP usam bancos separados, a integração de dados em tempo real pode ser um desafio técnico.
+2. **O sistema atual aceita integração via API para atualizar saldo automaticamente?**
+   > Sem API, o ajuste de saldo teria que ser manual ou via planilha, perdendo a vantagem da automação.
 
-**Qual a volumetria atual de SKUs por loja?**
-> O número de produtos impacta performance, armazenamento e estratégia de indexação do banco de dados.
-
-**As lojas possuem infraestrutura de rede adequada para um sistema em tempo real?**
-> Um dashboard e alertas em tempo real dependem de conectividade estável nas lojas físicas.
+3. **Haverá resistência dos estoquistas à mudança do processo manual?**
+   > Uma ferramenta nova exige treinamento e adaptação — é importante prever onboarding e suporte.

@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.6] — 2026-07-10
+
+### Alterado
+
+- Matriz CSD reduzida para 3 itens por seção com explicações individuais
+
 ## [1.1.5] — 2026-07-10
 
 ### Alterado
