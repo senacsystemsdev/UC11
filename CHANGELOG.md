@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.5] — 2026-07-10
+
+### Alterado
+
+- Matriz CSD de todos os integrantes atualizada com dados reais do app Meu Atacadão e ERP do Atacadão
+
 ## [1.1.4] — 2026-07-10
 
 ### Adicionado
