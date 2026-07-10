@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.8] — 2026-07-10
+
+### Alterado
+
+- Matriz CSD do Ed alterada para perspectiva de usuário comum do app Meu Atacadão
+
 ## [1.1.7] — 2026-07-10
 
 ### Adicionado
