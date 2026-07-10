@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.4] — 2026-07-10
+
+### Adicionado
+
+- Matriz CSD individual nas pastas alaide/, ed/ e william/
+
 ## [1.1.3] — 2026-07-09
 
 ### Adicionado
