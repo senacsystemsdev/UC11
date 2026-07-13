@@ -2,36 +2,36 @@
 
 ## Certezas
 
-1. **O app Meu Atacadão pode ser baixado de graça no celular**
-   > Está disponível na Google Play para Android e na App Store para iPhone.
+1. **O app Meu Atacadão permite ativar cupons de desconto**
+   > O cliente pode selecionar cupons no celular e usar no caixa da loja.
 
-2. **O app mostra as ofertas e promoções do Atacadão**
-   > Dá para ver o folheto semanal e ativar cupons de desconto direto pelo celular.
+2. **O app mostra o folheto de ofertas da semana**
+   > Dá para ver os produtos em promoção antes de ir ao supermercado.
 
-3. **O app tem scanner de código de barras**
-   > O cliente pode apontar a câmera para o produto e ver o preço na hora.
+3. **O app informa o endereço e horário das lojas**
+   > O cliente consulta a unidade mais próxima e o funcionamento.
 
 ## Suposições
 
-1. **O usuário baixa o app para economizar nas compras**
-   > As ofertas e cupons ajudam a gastar menos no supermercado.
+1. **O usuário ativa os cupons antes de passar no caixa**
+   > Ele já deixa os descontos prontos para não esquecer na hora de pagar.
 
-2. **O usuário consulta as ofertas antes de ir à loja**
-   > Assim ele planeja o que comprar e aproveita os descontos.
+2. **O usuário planeja as compras pelo folheto do app**
+   > Ele escolhe o que comprar com base nos produtos que estão em oferta.
 
-3. **O usuário usa o scanner para verificar o preço dos produtos**
-   > Durante a compra, ele confere se o valor no caixa está correto.
+3. **O usuário prefere lojas perto de casa**
+   > Ele consulta o app para encontrar a unidade mais próxima e conveniente.
 
 ## Dúvidas
 
-1. **O app funciona em qualquer celular?**
-   > Pode ser que celulares muito antigos ou com pouca memória tenham dificuldade para rodar o app.
+1. **A loja sempre aceita os cupons do app?**
+   > Pode ser que algum cupom não passe no caixa por erro do sistema.
 
-2. **As ofertas do app são as mesmas em todas as lojas?**
-   > Nem sempre a promoção que aparece no app está disponível em todas as filiais.
+2. **O folheto do app é igual ao folheto impresso?**
+   > Talvez tenha ofertas exclusivas no digital que não aparecem no papel.
 
-3. **O app atualiza os preços em tempo real?**
-   > O cliente pode ver um preço no scanner e outro diferente no caixa se a atualização for demorada.
+3. **O app mostra se o produto está em falta na loja?**
+   > O cliente pode ir até a loja atrás de uma promoção e não encontrar o produto.
 
 ---
 
