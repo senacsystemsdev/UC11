@@ -4,7 +4,7 @@
 |---|---|---|---|---|
 | Fornecedores da indústria alimentícia, bebidas, limpeza e higiene | Operação logística de abastecimento das lojas | Preço baixo no atacado e varejo (atacarejo) | Autoatendimento nas lojas | Consumidor final (CPF) — classes C e D |
 | Grupo Carrefour (controladora) | Gestão de estoque e compras | Produtos essenciais de alto giro | Programa de fidelidade (app Meu Atacadão) | Pequenos e médios comerciantes (CNPJ) |
-| Rappi e iFood (delivery) | Venda no PDV e online | Conveniência da compra online com retirada ou entrega | Atendimento nas lojas e canais digitais | Transformadores (indústrias alimentícias) |
+| Rappi (delivery) | Venda no PDV e online | Conveniência da compra online com retirada ou entrega | Atendimento nas lojas e canais digitais | Transformadores (indústrias alimentícias) |
 | Postos de gasolina e drogarias (operações nas lojas) | Operação dos centros de distribuição | Variedade de produtos em um só lugar | Suporte ao cliente (sac, app e loja) | Grandes lojistas (atacado de entrega) |
 | | **Recursos Principais** | | **Canais** | |
 | | Mais de 380 lojas em todo o Brasil | | Lojas físicas (autosserviço) | |
