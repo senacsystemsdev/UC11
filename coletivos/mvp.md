@@ -9,6 +9,15 @@
 
 MVP de um sistema de inteligência artificial para controle de validade, prevenção de perdas e detecção de anomalias na rede Atacadão. Acoplado ao ERP existente (TOTVS Consinco/RMS), o sistema monitora em tempo real o risco de vencimento, sugere ações preventivas e identifica padrões suspeitos de perda.
 
+```mermaid
+pie title Distribuição das Perdas no Varejo Brasileiro (ABRAPPE 2025)
+    "Vencimento / Validade" : 35
+    "Furto externo" : 25
+    "Avaria / Manuseio" : 20
+    "Furto interno" : 12
+    "Erro de sistema" : 8
+```
+
 ---
 
 ## 1. Controle de Validade e Prevenção de Perdas
@@ -110,19 +119,6 @@ graph LR
         B --> D[Python ML]
         D --> E[scikit-learn<br/>Isolation Forest]
     end
-```
-
----
-
-## Distribuição das Perdas no Varejo (Referência)
-
-```mermaid
-pie title Distribuição das Perdas no Varejo Brasileiro (ABRAPPE 2025)
-    "Vencimento / Validade" : 35
-    "Furto externo" : 25
-    "Avaria / Manuseio" : 20
-    "Furto interno" : 12
-    "Erro de sistema" : 8
 ```
 
 ---
