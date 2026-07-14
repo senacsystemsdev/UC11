@@ -87,16 +87,29 @@ MVP de um sistema de inteligência artificial para controle de validade, preven�
 
 ## Fluxo do MVP
 
+```mermaid
+graph TD
+    A[Entrada de mercadoria] --> B[Registro de lote e validade no ERP]
+    B --> C[ML monitora validade vs. velocidade de venda]
+    C --> D{Risco?}
+    D -->|Baixo| E[Mantém na gôndola]
+    D -->|Médio| F[Sugere desconto ou realocação]
+    D -->|Alto| G[Alerta: retirar da gôndola]
+    G --> H[Registro de perda]
+    H --> I[ML analisa padrão e causa]
+    I --> J{Anomalia?}
+    J -->|Sim| K[Alerta gerente + relatório auditoria]
+    J -->|Não| L[Arquiva]
 ```
 
-Entrada de mercadoria → Registro de lote e validade no ERP →
-  → ML monitora validade vs. velocidade de venda →
-    → Risco baixo? → Mantém
-    → Risco médio? → Sugere desconto ou realocação
-    → Risco alto? → Alerta para retirar da gôndola
-      → Perda registrada? → ML analisa padrão e causa →
-        → Anomalia? → Alerta gerente + relatório para auditoria
-
+```mermaid
+graph LR
+    subgraph Arquitetura
+        A[React Frontend] --> B[Node.js API]
+        B --> C[PostgreSQL]
+        B --> D[Python ML]
+        D --> E[scikit-learn<br/>Isolation Forest]
+    end
 ```
 
 ---
