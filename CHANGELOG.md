@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.2.0] — 2026-07-14
+
+### Adicionado
+
+- MVP com IA integrada (`coletivos/mvp.md`) — previsão de demanda, recomendação no PDV e detecção de anomalias em perdas
+
 ## [1.1.10] — 2026-07-14
 
 ### Alterado
