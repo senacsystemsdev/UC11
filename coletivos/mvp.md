@@ -9,6 +9,12 @@
 
 MVP de um sistema de inteligência artificial para controle de validade, prevenção de perdas e detecção de anomalias na rede Atacadão. Acoplado ao ERP existente (TOTVS Consinco/RMS), o sistema monitora em tempo real o risco de vencimento, sugere ações preventivas e identifica padrões suspeitos de perda.
 
+---
+
+## Panorama das Perdas no Varejo
+
+O varejo brasileiro perdeu **R$ 42,1 bilhões** em 2025, o equivalente a **1,65%** do faturamento total do setor (ABRAPPE). A distribuição das causas mostra onde o MVP pode atuar:
+
 ```mermaid
 pie title Distribuição das Perdas no Varejo Brasileiro (ABRAPPE 2025)
     "Vencimento / Validade" : 35
@@ -17,6 +23,8 @@ pie title Distribuição das Perdas no Varejo Brasileiro (ABRAPPE 2025)
     "Furto interno" : 12
     "Erro de sistema" : 8
 ```
+
+O MVP ataca diretamente **55%** dessas perdas: vencimento/validade (35%) e avaria/manuseio (20%), além de detectar anomalias que reduzem furtos (37%) e erros de sistema (8%).
 
 ---
 
