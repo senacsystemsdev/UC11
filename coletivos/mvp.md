@@ -114,19 +114,6 @@ graph LR
 
 ---
 
-## Tecnologias
-
-| Camada | Tecnologia | Por quê? |
-|--------|-----------|----------|
-| Frontend | React + TypeScript | Ecossistema maduro, componentes reutilizáveis, tipagem estática para evitar erros em tela |
-| Backend | Node.js (API) + Python (ML) | Node.js para API REST rápida e eficiente; Python para ML porque tem o ecossistema mais robusto (scikit-learn, pandas, numpy) |
-| Banco de Dados | PostgreSQL | Relacional, suporta consultas complexas, dados estruturados de estoque e vendas, amplamente usado no varejo |
-| ML | scikit-learn, pandas, numpy (Isolation Forest para anomalias) | Isolation Forest é eficaz para detecção de anomalias em dados de alta dimensão, bibliotecas leves e bem documentadas |
-| Vizualização | Chart.js / Recharts (dashboard) | Leves, integram bem com React, suportam gráficos interativos em tempo real |
-| Notificação | WebSocket / Push | Alerta em tempo real para o gerente sem necessidade de recarregar página |
-
----
-
 ## Distribuição das Perdas no Varejo (Referência)
 
 ```mermaid
@@ -149,6 +136,19 @@ pie title Distribuição das Perdas no Varejo Brasileiro (ABRAPPE 2025)
 | Tempo entre perda e detecção | Redução de 70% | Hoje: detectado apenas no inventário mensal |
 | Precisão da classificação de causa | > 85% | — |
 | Alertas de anomalia com taxa de falsos positivos | < 10% | — |
+
+---
+
+## Tecnologias
+
+| Camada | Tecnologia | Por quê? |
+|--------|-----------|----------|
+| Frontend | React + TypeScript | Ecossistema maduro, componentes reutilizáveis, tipagem estática para evitar erros em tela |
+| Backend | Node.js (API) + Python (ML) | Node.js para API REST rápida e eficiente; Python para ML porque tem o ecossistema mais robusto (scikit-learn, pandas, numpy) |
+| Banco de Dados | PostgreSQL | Relacional, suporta consultas complexas, dados estruturados de estoque e vendas, amplamente usado no varejo |
+| ML | scikit-learn, pandas, numpy (Isolation Forest para anomalias) | Isolation Forest é eficaz para detecção de anomalias em dados de alta dimensão, bibliotecas leves e bem documentadas |
+| Vizualização | Chart.js / Recharts (dashboard) | Leves, integram bem com React, suportam gráficos interativos em tempo real |
+| Notificação | WebSocket / Push | Alerta em tempo real para o gerente sem necessidade de recarregar página |
 
 ---
 
