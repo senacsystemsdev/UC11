@@ -2,7 +2,7 @@
 
 **UC11:** Gerir Projetos de Tecnologia da Informação  
 **Equipe:** William, Alaide, Ed  
-**Plataforma:** Web (dashboard) + Mobile (notificações e alertas)
+**Plataforma:** Web (dashboard)
 
 ---
 
