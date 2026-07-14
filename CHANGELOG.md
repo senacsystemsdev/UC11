@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.3.0] — 2026-07-14
+
+### Adicionado
+
+- MVP com dados reais do Atacadão e fontes (Estadão, MPDFT, ABRAPPE, Neogrid, BNews)
+- Gráficos Mermaid no MVP: fluxo de decisão, arquitetura do sistema, pizza (distribuição de perdas), barras (ganhos esperados)
+- Seção "Panorama das Perdas no Varejo" com tabela comparativa Antes vs Depois
+- Plataforma Web + Mobile no cabeçalho do documento
+- Justificativa das tecnologias no MVP
+
+### Alterado
+
+- MVP refatorado para foco em **Controle de Validade e Prevenção de Perdas** e **Detecção de Anomalias em Perdas e Fraudes**
+- Canvas Model removido após teste de layout
+- Tecnologias movidas para o final do documento
+
 ## [1.2.0] — 2026-07-14
 
 ### Alterado
