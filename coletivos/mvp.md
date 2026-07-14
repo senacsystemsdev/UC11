@@ -28,6 +28,30 @@ O MVP ataca diretamente **55%** dessas perdas: vencimento/validade (35%) e avari
 
 ---
 
+## Canvas Model — MVP
+
+| Parcerias Principais | Atividades Principais | Proposta de Valor | Relacionamento com Clientes | Segmentos de Clientes |
+|---|---|---|---|---|
+| ERP TOTVS Consinco/RMS (integração) | Monitoramento preditivo de validade | Reduzir perdas por vencimento e avaria | Suporte direto aos gerentes de loja | **Gerentes de Loja** — monitoram perdas e validade |
+| Equipe de TI do Atacadão | Detecção de anomalias em perdas | Evitar multas e TACs (MPDFT) | Notificações em tempo real (push) | **Compradores** — recebem alertas de risco |
+| Fornecedores (troca de lotes próximos ao vencimento) | Sugestão automática de ações (desconto, realocação, descarte) | Aumentar margem reduzindo desperdício | Dashboard com heatmap de risco | **Diretoria** — relatórios consolidados de perdas |
+| ABRAPPE / Neogrid (dados setoriais de referência) | Geração de relatórios por causa provável | Detectar fraudes e furtos em tempo real | | **Auditoria / MP** — prestação de contas |
+
+| | **Recursos Principais** | | **Canais** | |
+| | Modelo ML (Isolation Forest) | | Dashboard web (React) | |
+| | Banco PostgreSQL com dados de estoque e vendas | | Notificação push no celular do gerente | |
+| | API Node.js + Python | | Relatório mensal automático | |
+| | Histórico de perdas do ERP | | | |
+
+| **Estrutura de Custos** | **Fontes de Receita** |
+|---|---|
+| Desenvolvimento do MVP (equipe interna/terceirizada) | **Redução de custos operacionais** — menos perda = mais margem |
+| Infraestrutura (servidores, banco de dados) | **Redução de multas e indenizações** — TAC MPDFT, ações judiciais |
+| Manutenção e evolução do modelo ML | **Aumento de vendas** — menos ruptura por validade |
+| Treinamento dos usuários (gerentes, compradores) | **Valor gerado internamente** (não é venda direta, é eficiência operacional) |
+
+---
+
 ## 1. Controle de Validade e Prevenção de Perdas
 
 ### Sistema Atual (Real)
