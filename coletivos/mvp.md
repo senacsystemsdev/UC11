@@ -26,6 +26,22 @@ pie title Distribuição das Perdas no Varejo Brasileiro (ABRAPPE 2025)
 
 O MVP ataca diretamente **55%** dessas perdas: vencimento/validade (35%) e avaria/manuseio (20%), além de detectar anomalias que reduzem furtos (37%) e erros de sistema (8%).
 
+### Ganhos Esperados
+
+| Indicador | Antes | Depois (Meta) | Redução |
+|-----------|-------|---------------|---------|
+| Produtos vencidos encontrados por loja | 113 unidades (MPDFT) | Zero | **100%** |
+| Perda sobre faturamento | 1,65% (ABRAPPE) | 1,40% | **15%** |
+| Tempo para detectar uma perda | 30 dias (inventário mensal) | ~9 dias | **70%** |
+
+```mermaid
+xychart-beta
+    title "Redução Esperada por Indicador (%)"
+    x-axis ["Produtos Vencidos", "Perdas Totais", "Tempo Detecção"]
+    y-axis "Redução (%)" 0 --> 100
+    bar [100, 15, 70]
+```
+
 ------
 
 ## 1. Controle de Validade e Prevenção de Perdas
