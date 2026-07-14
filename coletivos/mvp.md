@@ -1,7 +1,8 @@
 # MVP — Controle de Validade e Prevenção de Perdas com IA (Atacadão)
 
 **UC11:** Gerir Projetos de Tecnologia da Informação  
-**Equipe:** William, Alaide, Ed
+**Equipe:** William, Alaide, Ed  
+**Plataforma:** Web (dashboard) + Mobile (notificações e alertas)
 
 ---
 
