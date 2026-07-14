@@ -4,7 +4,7 @@
 
 ### Adicionado
 
-- MVP com IA integrada (`coletivos/mvp.md`) — previsão de demanda, recomendação no PDV e detecção de anomalias em perdas
+- MVP com IA integrada (`coletivos/mvp.md`) — documento detalhado com comparação entre sistema atual e sistema com IA para previsão de demanda, sugestão de compras, recomendação no PDV e detecção de anomalias em perdas
 
 ## [1.1.10] — 2026-07-14
 
