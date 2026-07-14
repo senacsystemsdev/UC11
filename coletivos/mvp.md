@@ -127,6 +127,19 @@ graph LR
 
 ---
 
+## Distribuição das Perdas no Varejo (Referência)
+
+```mermaid
+pie title Distribuição das Perdas no Varejo Brasileiro (ABRAPPE 2025)
+    "Vencimento / Validade" : 35
+    "Furto externo" : 25
+    "Avaria / Manuseio" : 20
+    "Furto interno" : 12
+    "Erro de sistema" : 8
+```
+
+---
+
 ## Critérios de Sucesso
 
 | Indicador | Meta | Referência Setorial |
