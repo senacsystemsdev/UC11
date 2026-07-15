@@ -13,6 +13,10 @@
   - `wireframes.md` — descrição textual de 4 telas do dashboard
   - `lgpd-conformidade.md` — mapeamento LGPD, medidas de proteção e checklist
 
+### Removido
+
+- `coletivos/mvp.md` (movido para dentro de `coletivos/mvp/mvp.md`)
+
 ## [1.3.0] — 2026-07-14
 
 ### Adicionado
