@@ -208,32 +208,32 @@ erDiagram
     FILIAL ||--o{ USUARIO : "lotado em"
 
     FILIAL {
-        nome "Nome da filial"
-        uf "Estado"
+        string nome
+        string uf
     }
     PRODUTO {
-        nome "Nome do produto"
-        sku "Código SKU"
-        validade_dias "Prazo de validade"
+        string nome
+        string sku
+        int validade_dias
     }
     LOTE {
-        numero "Número do lote"
-        validade "Data de validade"
-        qtd_atual "Quantidade em estoque"
-        risco "Verde/Amarelo/Vermelho"
+        string numero
+        date validade
+        int qtd_atual
+        string risco
     }
     PERDA {
-        quantidade "Unidades perdidas"
-        valor "Valor financeiro"
-        tipo "Vencimento/Avaria/Extravio/Erro"
+        int quantidade
+        decimal valor
+        string tipo
     }
     ANOMALIA {
-        tipo "Desvio/Padrão suspeito/Quebra"
-        severidade "Baixa/Média/Alta/Crítica"
+        string tipo
+        string severidade
     }
     ALERTA {
-        mensagem "Texto do alerta"
-        acao "Ação sugerida"
+        string mensagem
+        string acao
     }
 ```
 
