@@ -4,7 +4,8 @@
 
 ### Adicionado
 
-- `coletivos/mvp/levantamento-requisitos.md` — levantamento de requisitos específico do MVP com 21 RFs (RF-MVP001 a RF-MVP021), 30 RNFs (RNF-MVP01 a RNF-MVP30), 8 perfis de usuário, 7 regras de negócio, 7 critérios de aceitação e matriz de rastreabilidade casos de uso × requisitos
+- `mvp/` movida de `coletivos/mvp/` para a raiz do projeto
+- `mvp/levantamento-requisitos.md` — levantamento de requisitos específico do MVP com 21 RFs (RF-MVP001 a RF-MVP021), 30 RNFs (RNF-MVP01 a RNF-MVP30), 8 perfis de usuário, 7 regras de negócio, 7 critérios de aceitação e matriz de rastreabilidade casos de uso × requisitos
 
 ## [1.6.0] — 2026-07-17
 
