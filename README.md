@@ -13,7 +13,7 @@ MVP de um sistema com IA para **controle de validade, prevenção de perdas e de
 | Membro | Papel | Pasta |
 |--------|-------|-------|
 | William | Front-end e Banco de Dados | `william/` |
-| Alaide | Documentação | `alaide/` |
+| Alaide | UI/UX | `alaide/` |
 | Ed | Back-end e DevOps | `ed/` |
 
 ## Estrutura do Repositório
