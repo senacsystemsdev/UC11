@@ -14,7 +14,7 @@ MVP de um sistema com IA para **controle de validade, prevenção de perdas e de
 |--------|-------|-------|
 | William | Front-end e Banco de Dados | `william/` |
 | Alaide | UI/UX | `alaide/` |
-| Ed | Back-end e DevOps | `ed/` |
+| Ed | Back-end, DevOps e Documentação | `ed/` |
 
 ## Estrutura do Repositório
 
