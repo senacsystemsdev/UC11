@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.7.0] — 2026-07-17
+
+### Alterado
+
+- `coletivos/levantamento-requisitos.md` — versão 2.0 alinhada ao MVP: novos RFs de ML (RF035-RF049), RNFs reorganizados por categoria com métricas, perfis de usuário do MVP, novas regras de negócio (RN007-RN010), critérios de aceitação e marcação de escopo (✅ MVP / ⏳ Futuro)
+
 ## [1.6.0] — 2026-07-17
 
 ### Adicionado
