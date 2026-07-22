@@ -9,6 +9,7 @@
 ### Corrigido
 
 - `frontend/` — login redirecionava para `/` (que agora redireciona para login), criando loop; corrigido para `/dashboard`
+- `frontend/` — `BrowserRouter` com `basename` fixo `/UC11` quebrava o dev local; agora é dinâmico via `import.meta.env.PROD`
 
 ### Alterado
 
