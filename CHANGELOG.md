@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.9.0] — 2026-07-22
+
+### Adicionado
+
+- `mvp/problema-identificado.md` — documento detalhado do problema identificado no Atacadão: perdas de R$ 42,1 bi/ano no setor (ABRAPPE), TAC MPDFT vigente, investigação MP-BA, falha operacional no ERP TOTVS
+- `mvp/pitch-atacadao.md` — apresentação completa do Pitch Executivo com 6 slides, roteiro por minuto, divisão de falas por integrante e sessão de perguntas e respostas
+- `mvp/plano-implantacao.md` — plano de implantação resumido: cronograma 4 sprints (138 dias), 3 fases (piloto, expansão controlada, rollout nacional), recursos, infraestrutura, riscos e ROI estimado
+
+### Alterado
+
+- `mvp/mvp-canvas.md` — revisado para alinhamento com o pitch e o plano de implantação
+
 ## [1.8.1] — 2026-07-22
 
 ### Corrigido
