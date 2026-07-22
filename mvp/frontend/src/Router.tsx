@@ -1,5 +1,5 @@
-// Importa Routes e Route do react-router-dom para definir as rotas
-import { Routes, Route } from 'react-router-dom'
+// Importa Routes, Route e Navigate do react-router-dom para definir as rotas
+import { Routes, Route, Navigate } from 'react-router-dom'
 // Importa o Layout que envolve as páginas com Sidebar e Header
 import Layout from './components/Layout/Layout'
 // Importa todas as páginas do sistema
@@ -21,8 +21,10 @@ export default function Router() {
       <Route path="/esqueceu-senha" element={<EsqueceuSenha />} />
       {/* Layout envolvendo as rotas protegidas (com sidebar) */}
       <Route element={<Layout />}>
-        {/* Rota raiz → Dashboard principal */}
-        <Route path="/" element={<Dashboard />} />
+        {/* Rota raiz → redireciona para o login */}
+        <Route path="/" element={<Navigate to="/login" replace />} />
+        {/* Dashboard */}
+        <Route path="/dashboard" element={<Dashboard />} />
         {/* Rota de detalhe do lote com parâmetro :id */}
         <Route path="/lote/:id" element={<LoteDetail />} />
         {/* Rota da página de anomalias */}

@@ -5,7 +5,7 @@ import { useSidebar } from './Layout'
 
 // Itens de navegação do menu lateral
 const navItems = [
-  { to: '/', icon: 'dashboard', label: 'Dashboard' },
+  { to: '/dashboard', icon: 'dashboard', label: 'Dashboard' },
   { to: '/lote/4521', icon: 'inventory_2', label: 'Lotes & Estoque' },
   { to: '/anomalias', icon: 'warning', label: 'Anomalias' },
   { to: '/relatorios', icon: 'assessment', label: 'Relatórios' },

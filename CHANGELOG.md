@@ -6,6 +6,11 @@
 
 - `frontend/` — página em branco no GitHub Pages: `BrowserRouter` sem `basename` fazia o React Router não匹配 as rotas quando o site está em subdiretório (`/UC11/`)
 
+### Alterado
+
+- `frontend/` — rota raiz `/` agora redireciona para `/login` (página de login como landing page)
+- `frontend/` — Dashboard movido para `/dashboard`; link na Sidebar atualizado
+
 ## [1.8.0] — 2026-07-20
 
 ### Adicionado
