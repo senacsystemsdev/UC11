@@ -21,6 +21,7 @@ MVP de um sistema com IA para **controle de validade, prevenção de perdas e de
 ### Raiz
 
 - `CHANGELOG.md` — histórico de alterações do projeto
+- `LICENSE` — licença MIT
 
 ## Branches
 

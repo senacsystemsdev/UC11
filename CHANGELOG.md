@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.10.0] — 2026-07-23
+
+### Adicionado
+
+- `LICENSE` — licença MIT adicionada ao repositório
+
+### Alterado
+
+- `README.md` — adicionada referência à licença MIT na seção "Raiz"
+
 ## [1.9.0] — 2026-07-22
 
 ### Adicionado
