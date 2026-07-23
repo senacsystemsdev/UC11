@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.11.0] — 2026-07-23
+
+### Alterado
+
+- `frontend/` — rota raiz `/` renderiza diretamente o componente Login em vez de redirecionar para `/login`, eliminando o `/login` da URL
+
 ## [1.10.0] — 2026-07-23
 
 ### Adicionado
